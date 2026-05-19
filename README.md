@@ -19,18 +19,18 @@ OpenTerminal provides a clean, secure, and simple remote terminal accessible via
 
 - Features
 
-Clean REST API with interactive Swagger docs (/docs)
-Full file system read/write access
-File search and management
-Native Open WebUI integration (with file browser sidebar)
-Multi-user isolation mode
-Multiple Docker variants: latest, slim, alpine
-Easy package pre-installation via environment variables
+- Clean REST API with interactive Swagger docs (/docs)
+- Full file system read/write access
+- File search and management
+- Native Open WebUI integration (with file browser sidebar)
+- Multi-user isolation mode
+- Multiple Docker variants: latest, slim, alpine
+- Easy package pre-installation via environment variables
 
-Links
+- Links
 
-Website → https://openterminal.sh
-GitHub → https://github.com/opnterm/open-terminal
+- Website → https://openterminal.sh
+- GitHub → https://github.com/opnterm/open-terminal
 
 ## Quick Start
 
