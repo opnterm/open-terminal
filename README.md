@@ -17,6 +17,21 @@ OpenTerminal provides a clean, secure, and simple remote terminal accessible via
 - **🐳 Docker (Recommended)** — Sandboxed environment with rich tools pre-installed.
 - **💻 Bare Metal** — Install via pip and run natively on your machine.
 
+- Features
+
+Clean REST API with interactive Swagger docs (/docs)
+Full file system read/write access
+File search and management
+Native Open WebUI integration (with file browser sidebar)
+Multi-user isolation mode
+Multiple Docker variants: latest, slim, alpine
+Easy package pre-installation via environment variables
+
+Links
+
+Website → https://openterminal.sh
+GitHub → https://github.com/opnterm/open-terminal
+
 ## Quick Start
 
 ### Docker (Recommended)
@@ -27,3 +42,6 @@ docker run -d --name open-terminal --restart unless-stopped \
   -v open-terminal:/home/user \
   -e OPEN_TERMINAL_API_KEY=your-secret-key \
   ghcr.io/open-webui/open-terminal
+
+pip install open-terminal
+open-terminal run --host 0.0.0.0 --port 8000 --api-key your-secret-key
