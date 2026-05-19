@@ -29,8 +29,9 @@ OpenTerminal provides a clean, secure, and simple remote terminal accessible via
 
 ### Links
 
+- Twitter/X → https://x.com/opnterm
 - Website → https://openterminal.sh
-- GitHub → https://github.com/opnterm/open-terminal
+- GitHub → https://github.com/opnterm/
 
 ## Quick Start
 
