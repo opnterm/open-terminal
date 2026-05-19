@@ -17,7 +17,7 @@ OpenTerminal provides a clean, secure, and simple remote terminal accessible via
 - **🐳 Docker (Recommended)** — Sandboxed environment with rich tools pre-installed.
 - **💻 Bare Metal** — Install via pip and run natively on your machine.
 
-- Features
+### Features
 
 - Clean REST API with interactive Swagger docs (/docs)
 - Full file system read/write access
@@ -27,7 +27,7 @@ OpenTerminal provides a clean, secure, and simple remote terminal accessible via
 - Multiple Docker variants: latest, slim, alpine
 - Easy package pre-installation via environment variables
 
-- Links
+### Links
 
 - Website → https://openterminal.sh
 - GitHub → https://github.com/opnterm/open-terminal
