@@ -27,6 +27,17 @@ OpenTerminal provides a clean, secure, and simple remote terminal accessible via
 - Multiple Docker variants: latest, slim, alpine
 - Easy package pre-installation via environment variables
 
+- Open your browser and go to http://localhost:8000
+
+pip install open-terminal
+open-terminal run --host 0.0.0.0 --port 8000 --api-key your-secret-key
+
+- ### Links
+
+- Twitter/X → https://x.com/opnterm
+- Website → https://openterminal.sh
+- GitHub → https://github.com/opnterm/
+
 ## Quick Start
 
 ### Docker (Recommended)
@@ -40,24 +51,3 @@ docker run -d --name open-terminal --restart unless-stopped \
 
 pip install open-terminal
 open-terminal run --host 0.0.0.0 --port 8000 --api-key your-secret-key
-
-Open your browser and go to http://localhost:8000
-
-pip install open-terminal
-open-terminal run --host 0.0.0.0 --port 8000 --api-key your-secret-key
-
-Features
-
-✅ Clean REST API + Interactive Swagger UI (/docs)
-✅ Full filesystem read/write & search
-✅ Native Open WebUI integration (file browser sidebar)
-✅ Multi-user isolation mode
-✅ Multiple Docker variants (latest, slim, alpine)
-✅ Easy package pre-installation
-✅ Docker socket support (optional)
-
-### Links
-
-- Twitter/X → https://x.com/opnterm
-- Website → https://openterminal.sh
-- GitHub → https://github.com/opnterm/
